@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hunter Koldjeski — Private Membership Community</title>
+  <meta name="description" content="Private membership community providing leadership education and training." />
+  <style>
+    :root{
+      --bg:#0b0f14;
+      --panel:#111826;
+      --text:#e8eef6;
+      --muted:#b7c3d6;
+      --line:rgba(232,238,246,.14);
+      --btn:#2b67ff;
+      --btn2:rgba(232,238,246,.08);
+      --focus:rgba(43,103,255,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1200px 700px at 20% 0%, rgba(43,103,255,.18), transparent 55%),
+                  radial-gradient(900px 600px at 80% 10%, rgba(120,68,255,.12), transparent 50%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.5;
+    }
+    a{color:inherit}
+    .wrap{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 40px 18px 70px;
+    }
+    header{
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(17,24,38,.85), rgba(17,24,38,.55));
+      border-radius: 18px;
+      padding: 28px 22px;
+      box-shadow: 0 18px 45px rgba(0,0,0,.35);
+    }
+    .kicker{
+      color:var(--muted);
+      font-size: 14px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      margin:0 0 10px 0;
+    }
+    h1{
+      margin:0 0 8px 0;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .sub{
+      margin:0 0 18px 0;
+      color:var(--muted);
+      font-size: 16px;
+      max-width: 62ch;
+    }
+    .cta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top: 14px;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding: 11px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      text-decoration:none;
+      font-weight: 600;
+      font-size: 14px;
+      outline:none;
+    }
+    .btn.primary{
+      background: var(--btn);
+      border-color: rgba(43,103,255,.55);
+      color: #fff;
+    }
+    .btn.secondary{
+      background: var(--btn2);
+    }
+    .btn:focus{
+      box-shadow: 0 0 0 4px var(--focus);
+    }
+    main{
+      margin-top: 18px;
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 14px;
+    }
+    @media (max-width: 860px){
+      main{grid-template-columns: 1fr}
+    }
+    .card{
+      border: 1px solid var(--line);
+      background: rgba(17,24,38,.62);
+      border-radius: 18px;
+      padding: 18px 18px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.22);
+    }
+    h2{
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      letter-spacing: -0.01em;
+    }
+    p{margin: 0 0 10px 0; color: var(--text)}
+    .muted{color:var(--muted)}
+    ul{
+      margin: 10px 0 0 18px;
+      padding:0;
+      color: var(--text);
+    }
+    li{margin: 6px 0}
+    .rule{
+      height:1px;
+      background: var(--line);
+      margin: 12px 0;
+    }
+    .small{
+      font-size: 13px;
+      color: var(--muted);
+    }
+    footer{
+      margin-top: 16px;
+      text-align:center;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .label{
+      display:inline-block;
+      font-size: 12px;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      padding: 4px 8px;
+      border-radius: 999px;
+      margin: 0 0 8px 0;
+    }
+    code.inline{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 12px;
+      padding: 2px 6px;
+      border-radius: 8px;
+      background: rgba(232,238,246,.08);
+      border: 1px solid var(--line);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <p class="kicker">Operator: Hunter Koldjeski (Sole Proprietor)</p>
+      <h1>Hunter Koldjeski</h1>
+      <p class="sub">Private membership community providing leadership education and training.</p>
+
+      <div class="cta">
+        <!-- Replace the href with your real application/checkout link when available -->
+        <a class="btn primary" href="#apply" aria-label="Apply to Join">Apply to Join</a>
+        <a class="btn secondary" href="mailto:hunterkoldjeski@gmail.com" aria-label="Contact Support">Contact Support</a>
+      </div>
+
+      <div class="rule"></div>
+      <p class="small">
+        This page describes the membership services offered by <strong>Hunter Koldjeski</strong>.
+      </p>
+    </header>
+
+    <main>
+      <section class="card" id="offer">
+        <span class="label">Offer</span>
+        <h2>What I Offer</h2>
+        <p>Membership access to a private community focused on leadership education and training.</p>
+        <p>Members receive structured learning materials, community discussion, and periodic training sessions.</p>
+        <p>Access is provided after approval (application-based enrollment).</p>
+
+        <div class="rule"></div>
+
+        <span class="label">Audience</span>
+        <h2>Who This Is For</h2>
+        <p>This membership is for individuals seeking practical leadership education and structured training.</p>
+
+        <div class="rule"></div>
+
+        <span class="label">Billing</span>
+        <h2>Billing and Charges</h2>
+        <p>Charges are for membership access to the private community and associated training resources.</p>
+        <p>Billing may be one-time or recurring depending on the membership option selected at checkout.</p>
+        <p class="small">Your payment statement may reference <code class="inline">HUNTER KOLDJESKI</code> or a closely related descriptor.</p>
+
+        <div class="rule"></div>
+
+        <span class="label">Delivery</span>
+        <h2>How Access Is Delivered</h2>
+        <p>After successful payment, access instructions are delivered electronically.</p>
+        <p>If access is not received within 24 hours, contact support for manual assistance.</p>
+      </section>
+
+      <aside class="card" id="policies">
+        <span class="label">Support</span>
+        <h2>Support</h2>
+        <p><strong>Support Email:</strong> <a href="mailto:support@hunterkoldjeski.com">support@hunterkoldjeski.com</a></p>
+        <p><strong>Support Hours:</strong> Monday–Friday</p>
+        <p><strong>Response Time:</strong> within 1–2 business days</p>
+
+        <div class="rule"></div>
+
+        <span class="label">Cancellation</span>
+        <h2>Cancellation Policy</h2>
+        <p>If your membership is recurring, you may cancel at any time by emailing support from the email address used at checkout.</p>
+        <p>Cancellation stops future renewals.</p>
+        <p>Unless otherwise stated at checkout, access remains active through the end of the current paid period.</p>
+
+        <div class="rule"></div>
+
+        <span class="label">Refunds</span>
+        <h2>Refund Policy</h2>
+        <p>Due to the immediate delivery of digital access and training materials, refunds are not guaranteed.</p>
+        <p>If you believe you were charged in error or did not receive access, contact support within 7 days so the issue can be reviewed.</p>
+        <p>Duplicate charges or technical billing errors will be corrected.</p>
+
+        <div class="rule"></div>
+
+        <span class="label">Terms</span>
+        <h2>Terms</h2>
+        <p>By purchasing membership access, you agree to the policies listed on this page (Billing, Delivery, Cancellation, and Refund Policy).</p>
+
+        <div class="rule"></div>
+
+        <span class="label">Apply</span>
+        <h2 id="apply">Apply to Join</h2>
+        <p class="muted">If you have an application link, place it here.</p>
+        <ul>
+          <li>Application-based enrollment</li>
+          <li>Electronic delivery of access instructions after payment</li>
+          <li>Support available via email</li>
+        </ul>
+        <div style="margin-top:12px;">
+          <!-- Replace with your real link when ready -->
+          <a class="btn primary" href="#" onclick="return false;" aria-label="Application link placeholder">Application Link (Add URL)</a>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      © <span id="y"></span> Hunter Koldjeski. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
